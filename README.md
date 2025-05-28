@@ -13,29 +13,6 @@ With the increasing amount of fake news circulating on the internet, it is impor
 ## Project Structure
 
 ```
-app/
-	public/
-		index.html
-		manifest.json
-	src/
-		components/
-			Chatbot.js
-			ChatInput.js
-			ChatMessage.js
-			Dashboard.js
-			Navbar.js
-		pages/
-			ChatbotPage.js
-			DashboardPage.js
-			DocumentationPage.js
-		App.js
-		index.js
-		index.css
-	.gitignore
-	package-lock.json
-	package.json
-	README.md
-	tailwind.config.js
 backend/
 	dataset/
 		cleaned_dataset.csv
@@ -52,9 +29,29 @@ backend/
 	main.ipynb
 	model_ai_authentic_fake_news_checker.ipynb
 	requirements.txt
+public/
+	index.html
+	manifest.json
+src/
+	components/
+		Chatbot.js
+		ChatInput.js
+		ChatMessage.js
+		Dashboard.js
+		Navbar.js
+	pages/
+		ChatbotPage.js
+		DashboardPage.js
+		DocumentationPage.js
+	App.js
+	index.js
+	index.css
 .gitignore
 LICENSE
+package-lock.json
+package.json
 README.md
+tailwind.config.js
 ```
 
 ## Features
